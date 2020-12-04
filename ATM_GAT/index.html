@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATM - GAT</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">
+      <div class="header">
+        <h1>ATM - HEROWAY</h1>
+        <div class="welcome">
+          <span>Bem vindo</span>
+          <span>Guilherme Tosta</span>
+        </div>
+      </div>
+      <div class="atm">
+        <div class="account">
+          <div class="item">
+            <span>Saldo</span>
+            <span>
+              <span class="symbol">$</span> <span class="value">9.999.999 &infin;</span>
+            </span>
+          </div>
+          <div class="item">
+            <span>Notas disponíveis</span>
+            <span>
+              <span class="bill">$ 100.00</span>
+              <span class="bill">$ 50.00</span>
+              <span class="bill">$ 20.00</span>
+              <span class="bill">$ 10.00</span>
+            </span>
+          </div>
+          <div class="withdraw" id="withdraw">
+            $ 100, $ 100, $50, $10
+          </div>
+        </div>
+        <div class="action">
+          <input type="number" class="inputWindow" id="inputWindow" value=''/>
+          <div class="keyboard">
+            <div class="line">
+              <div class="btn">1</div>
+              <div class="btn">2</div>
+              <div class="btn">3</div>
+            </div>
+            <div class="line">
+              <div class="btn">4</div>
+              <div class="btn">5</div>
+              <div class="btn">6</div>
+            </div>
+            <div class="line">
+              <div class="btn">7</div>
+              <div class="btn">8</div>
+              <div class="btn">9</div>
+            </div>
+            <div class="line">
+              <div class="action gray" id='clean'>Limpar</div>
+              <div class="btn">0</div>
+              <div class="action pink" id='confirm'>Confirmar</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fast-withdraw"></div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
+
